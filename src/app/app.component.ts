@@ -12,11 +12,11 @@ export class AppComponent {
   email: any = 'mujib.rehman@focusteck.com'
   myFunction() {
     Email.send({
-      Host: 'smtp.elasticemail.com',
-      Username: 'mujib.rehman@focusteck.com',
-      Password: 'F910853DCAD40D589CE288D84F971B93F174',
+      Host: 'smtp.gmail.com',
+      Username: 'raza.sajjad@focusteck.com',
+      Password: 'mduocqantvbtcons',
       To: this.email,
-      From: 'mujib.rehman@focusteck.com',
+      From: 'raza.sajjad@focusteck.com',
       Subject: 'Subject',
       Body: 'Body'
     }).then(function () {
